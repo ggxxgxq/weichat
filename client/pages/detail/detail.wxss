@@ -1,0 +1,10 @@
+/* pages/detail/detail.wxss */
+.item{
+  display: flex;
+  padding: 30rpx;
+  border-bottom:1px solid #ccc;
+}
+.item >view{
+  font-size: 36rpx;
+  color: #666;
+} 

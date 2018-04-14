@@ -1,0 +1,47 @@
+/* pages/publish/publish.wxss */
+.publish-container{
+  height: 100%;
+}
+.item{
+  display: flex;
+  padding: 30rpx;
+  border-bottom:1px solid #ccc;
+}
+.item >view{
+  font-size: 36rpx;
+}
+.item >view:first-child{
+   width: 170rpx;
+   color: #666;
+   font-weight: 300;
+}
+.item >view:last-child{
+  flex:1;
+  color: #aaa;
+  padding-left: 10rpx;
+  font-weight: 100;
+}
+radio-group{
+  display: flex;
+}
+radio-group label{
+  display: flex;
+  align-items: center;
+}
+radio-group label:last-child{
+  margin-left:20rpx;
+}
+button{
+  margin:20rpx;
+}
+
+
+.success view{
+    padding:60rpx 20rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.success icon{
+  
+}

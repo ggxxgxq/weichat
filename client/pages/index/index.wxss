@@ -1,0 +1,32 @@
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container .map{
+   flex:1;
+}
+.container .map #map{
+   width: 100%;
+   height: 100%;
+}
+.container .tabbar{
+    height: 44px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 100;
+}
+.tabbar navigator{
+   flex:1;
+}
+.container .tabbar  view{
+  text-align: center;
+  line-height: 44px;
+  color:white;
+}
+.container .tabbar navigator:first-child{
+  background: #ff9700;
+}
+.container .tabbar  navigator:last-child{
+  background: #03bbd5;
+}

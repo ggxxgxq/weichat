@@ -1,0 +1,12 @@
+<view class="item">
+    <view>{{detail.address}}</view>
+</view>
+<view class="item">
+    <view>{{detail.type =='sell' ? '出售' : '求购'}}</view>
+</view>
+<view class="item">
+    <view>{{detail.message}}</view>
+</view>
+<view class="item">
+    <view>{{detail.contact}}</view>
+</view>

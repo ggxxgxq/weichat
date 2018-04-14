@@ -1,0 +1,26 @@
+<view class="search-container">
+    <view class='search'>
+        <view class='input'>
+            <input  bindinput="handleKeywordsChange" placeholder='请输入关键字'></input>
+        </view>
+        <view class='btn' bindtap="handleSearchTap">搜索</view>
+    </view>
+    <view class='list'>
+      <view>  
+        <view class='address'>address</view>
+        <view class='info'>address</view>
+      </view>
+       <view>  
+        <view class='address'>address</view>
+        <view class='info'>address</view>
+      </view>
+       <view>  
+        <view class='address'>address</view>
+        <view class='info'>address</view>
+      </view>
+       <view>  
+        <view class='address'>address</view>
+        <view class='info'>address</view>
+      </view>
+    </view>
+</view>
